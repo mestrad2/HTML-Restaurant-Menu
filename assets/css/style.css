@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -53,7 +54,7 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 50%;
     height: auto;
     background-color: white;
 }
@@ -63,8 +64,19 @@ nav a:hover {
     height: auto;
 }
 
+#restaurant {
+    width: 60%;
+    height: auto;
+}
+
+#about {
+    width: 50%;
+    height: auto;
+}
+
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
